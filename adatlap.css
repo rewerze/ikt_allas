@@ -1,0 +1,35 @@
+.kep {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+h1 {
+    color: #BCF0D5;
+}
+
+main {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.row {
+    margin-top: 1rem;
+}
+
+p {
+    color: white;
+}
+
+.vl {
+    border-left: 1px solid white;
+}
+
+.adatok p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+img {
+    border: 2px solid black;
+}
