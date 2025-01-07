@@ -4,7 +4,7 @@ main {
 }
 
 .card {
-    width: 40rem;
+    width: 28rem;
     height: 13rem;
     border: 3px solid black;
     box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.5);
@@ -37,7 +37,8 @@ p {
 }
 
 img {
-    border: 1px solid black
+    border: 1px solid black;
+    margin-right: 3rem;
 }
 
 hr {
@@ -60,16 +61,34 @@ h1 {
 }
 
 .radio-gombok {
-    width: 600px;
+    width: 20%;
     display: flex;
-    justify-content: start;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .radio-szuro {
     display: flex;
-    margin-right: 5rem;
+    margin-right: 1rem;
 }
 
 input[type=radio] {
     margin-right: 1rem;
 }
+
+.dropdown {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin-left: 2rem;
+}
+
+.adat {
+    margin-left: 2rem;
+}
+
+ .allasok {
+    display: flex;
+    justify-content: center;
+ }
